@@ -15,6 +15,11 @@
   margin: 0;
 }
 
+/*body*/
+body{
+    background-color: #F5F7FF;
+}
+
 /*header background*/
 .header-bg {
     background-image: url(../assets/Hero-bg.png);
@@ -43,6 +48,9 @@ nav a {
 }
 .secondary-color{
     color: #252432;
+}
+.tertiary-color {
+    color: rgba(37, 36, 50, 0.5);
 }
 .primary-button {
     color: white;
@@ -85,5 +93,34 @@ nav a {
     text-align: center;
 }
 
+/*main*/
+main{
+    max-width: 1300px;
+    margin: 150px auto;
+}
+
+/*action*/
+.action-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.action {
+    max-width: 520px;
+}
+.action-title{
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 25px;
+}
+.action-description {
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.action-img {
+    max-width: 400px;
+    max-height: 330px;
+    border-radius: 50px;
+}
 
 
