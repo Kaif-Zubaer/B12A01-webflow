@@ -36,7 +36,7 @@ nav {
 .nav-title {
     font-size: 34px;
     font-weight: 900;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 nav a {
     text-decoration: none;    
@@ -89,14 +89,11 @@ nav a {
     text-align: center;
     max-width: 900px;
 }
-.button-center {
-    text-align: center;
-}
 
 /*main*/
 main{
     max-width: 1300px;
-    margin: 150px auto;
+    margin: 200px auto;
 }
 
 /*action*/
@@ -128,7 +125,7 @@ main{
     background-color: rgba(78, 71, 255, 0.1);
     border: none;
     border-radius: 25px;
-    margin-top: 150px;
+    margin-top: 200px;
 }
 .productive-section-title {
     font-size: 38px;
@@ -155,7 +152,7 @@ main{
     font-size: 42px;
     font-weight: bold;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 200px;
     margin-bottom: 50px;
 }
 .review-container{
@@ -169,6 +166,10 @@ main{
     border-radius: 15px;
     background-color: white;
     padding: 50px;
+    transition: box-shadow 0.3s;
+}
+.review:hover{
+    box-shadow: 4px 4px 10px 1px #8987a138;
 }
 .review-title{
     color: #252432;
@@ -201,25 +202,58 @@ main{
 .form{
     display: flex;
 }
-
 .form-title{
     max-width: 530px;
     font-size: 100px;
     font-weight: bold;
-    margin-top: 300px;
+    margin-top: 350px;
 }
 form{
-    margin-top: 170px;
+    margin-top: 200px;
     margin-left: 185px;
 }
 
+/*footer section*/
+footer {
+    background-color: white;
+}
+.footer-title{
+    font-weight: 900;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+.footer-deescription {
+    font-size: 16px;
+    text-align: center;
+    width: 600px;
+    margin: 0px auto;
+    color: #8987A1;
+}
+footer ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+footer ul li{
+    list-style: none;
+    margin-right: 50px;
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+footer ul li a{
 
+    text-decoration: none;
+    color: #8987A1;
+    transition: color 0.3s;
+}
 
-
-
-
-
-
+footer ul li a:hover{
+    color: #4E47FF;
+}
+/*End*/
 
 
 
