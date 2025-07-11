@@ -43,7 +43,8 @@ nav {
     margin-top: 0px;
 }
 nav a {
-    text-decoration: none;    
+    text-decoration: none; 
+    margin: 50px;  
 }
 
 
@@ -222,6 +223,9 @@ main{
 form{
     margin-top: 200px;
     margin-left: 185px;
+}
+.email-input{
+    
 }
 
 
