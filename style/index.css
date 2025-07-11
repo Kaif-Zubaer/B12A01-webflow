@@ -10,21 +10,25 @@
   font-style: normal;
 }
 
+
 /*margin*/
 * {
   margin: 0;
 }
+
 
 /*body*/
 body{
     background-color: #F5F7FF;
 }
 
+
 /*header background*/
 .header-bg {
     background-image: url(../assets/Hero-bg.png);
     height: 850px;
 }
+
 
 /*navbar*/
 nav {
@@ -41,6 +45,7 @@ nav {
 nav a {
     text-decoration: none;    
 }
+
 
 /*primary section*/
 .primary-color {
@@ -73,6 +78,7 @@ nav a {
     color: #4E47FF;
 }
 
+
 /*banner*/
 .banner {
     margin: 170px 510px;
@@ -90,11 +96,13 @@ nav a {
     max-width: 900px;
 }
 
+
 /*main*/
 main{
     max-width: 1300px;
     margin: 200px auto;
 }
+
 
 /*action*/
 .action-container {
@@ -119,6 +127,7 @@ main{
     max-height: 330px;
     border-radius: 50px;
 }
+
 
 /*productive section*/
 .productive-container {
@@ -146,6 +155,7 @@ main{
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
 }
+
 
 /*review section*/
 .reviwe-title {
@@ -198,6 +208,7 @@ main{
     color: rgb(179, 179, 179);
 }
 
+
 /*form*/
 .form{
     display: flex;
@@ -212,6 +223,7 @@ form{
     margin-top: 200px;
     margin-left: 185px;
 }
+
 
 /*footer section*/
 footer {
